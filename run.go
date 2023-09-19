@@ -22,4 +22,6 @@ func main() {
 	fmt.Println("2006-January-02 15:04:05 Monday output:", now.Format("2006-January-02 15:04:05 Monday"))
 	fmt.Println("2006-Jan-02 15:04:05 Mon        output:", now.Format("2006-Jan-02 15:04:05 Mon"))
 	fmt.Println("2006-1-2 3:4:5 PM               output:", now.Format("2006-1-2 3:4:5 PM"))
+
+	fmt.Println("这是develop version")
 }
